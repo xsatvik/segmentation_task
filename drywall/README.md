@@ -77,12 +77,12 @@ Training time: ~4.5 hours
 ### Training Samples
 Sample training batch showing ground truth bounding boxes:
 
-![Training Batch](drywall/train_batch4721.jpg)
+![Training Batch](train_batch4721.jpg)
 
 ### Validation Predictions
 Model predictions on validation set:
 
-![Validation Predictions](drywall/val_batch0_pred.jpg)
+![Validation Predictions](val_batch0_pred.jpg)
 
 ## Conclusion
 
