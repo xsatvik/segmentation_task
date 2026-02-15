@@ -1,0 +1,12 @@
+# YOLO BBox Training (Ultralytics) - Python Dependencies
+
+# Note: Ultralytics uses PyTorch. On macOS (MPS) or CUDA machines, you may prefer
+# installing torch/torchvision explicitly for your platform.
+torch>=2.0.0
+torchvision>=0.15.0
+
+# YOLO detection training/inference
+ultralytics>=8.0.0
+
+# Experiment tracking
+wandb>=0.16.0
