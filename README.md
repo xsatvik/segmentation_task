@@ -40,11 +40,11 @@ Train a text-conditioned segmentation model using **SAM 3** fine-tuned with **Lo
 | **6 (Best)** ✅ | **63.99%** | **76.63%** | **77.04%** | **82.15%** | **+25.44 pp** |
 
 ### Key Achievements
-- ✅ **Final mIoU: 63.99%** (+25.44 points from baseline)
-- ✅ **Final Dice: 76.63%** (+24.93 points from baseline)
-- ✅ **66% relative improvement** over zero-shot baseline
-- ✅ Balanced precision (77%) and recall (82%)
-- ✅ Consistent improvement across all epochs
+- **Final mIoU: 63.99%** (+25.44 points from baseline)
+- **Final Dice: 76.63%** (+24.93 points from baseline)
+- **66% relative improvement** over zero-shot baseline
+- Balanced precision (77%) and recall (82%)
+- Consistent improvement across all epochs
 
 ---
 
@@ -106,10 +106,10 @@ wrapper
 ```
 
 ### Key Features
-- ✅ Text-conditioned segmentation with natural language prompts
-- ✅ Efficient LoRA fine-tuning (only 0.46% parameters trained)
-- ✅ Comprehensive W&B logging
-- ✅ Validation predictions saved per epoch
+- Text-conditioned segmentation with natural language prompts
+- Efficient LoRA fine-tuning (only 0.46% parameters trained)
+- Comprehensive W&B logging
+- Validation predictions saved per epoch
 
 ### Technologies Used
 - **Framework**: PyTorch 2.5.1, CUDA 12.1
@@ -126,12 +126,5 @@ wrapper
 3. Metric progression across epochs
 4. Distribution histograms (IoU, Dice)
 5. Sample predictions (best/worst cases)
----
-
-### Achievements
-✅ **Strong Performance**: 63.99% mIoU, 76.63% Dice
-✅ **Massive Improvement**: +66% over zero-shot baseline
-✅ **Efficient Training**: Only 0.46% parameters trained, 13 GPU-hours
-✅ **Consistent Quality**: Steady improvement, no overfitting
 
 ---
