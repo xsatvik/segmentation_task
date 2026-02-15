@@ -1,0 +1,34 @@
+# Dataset and large files
+cracks_data/
+results/
+wandb/
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+
+# Model checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Test and temporary files
+test_*.py
+REPORT_old_*.md
+
+# Logs and cache
+*.log
+.cache/
+
+# Other directories to exclude
+config/
+utils/
+inference/
