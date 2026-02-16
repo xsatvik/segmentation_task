@@ -3,6 +3,7 @@
 ## Goal
 Train a text-conditioned segmentation model using **SAM 3** fine-tuned with **LoRA** for crack detection from natural language prompt: "crack"
 
+Note due to the drywall wall not having the segmentation data and just bounding boxes, we went with training a object detection bbox model for that dataset, which is in the dir /drywall
 ---
 
 ## Approach
